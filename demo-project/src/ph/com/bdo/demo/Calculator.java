@@ -2,8 +2,8 @@ package ph.com.bdo.demo;
 
 public class Calculator {
 
-	public void addAndPrintNumbers(int x, int y) {
-		int sum = x + y;
+	public void addAndPrintNumbers(int x, int y, int z) {
+		int sum = x + y + z;
 		System.out.println(sum);
 	}
 	
