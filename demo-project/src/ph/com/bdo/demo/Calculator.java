@@ -11,4 +11,9 @@ public class Calculator {
 		int product = a * b;
 		System.out.println(product);
 	}
+	
+	public void divideAndPrintNumbers(int a, int b) {
+		int divide = a / b;
+		System.out.println(divide);
+	}
 }
