@@ -6,7 +6,10 @@ public class Main {
 
 	public static void main(String[] args) {
 		Calculator calculator = new Calculator();
-		calculator.addAndPrintNumbers(1, 1, 1);
+
+        int sum = calculator.addAndPrintNumbers(new int[] {1,2,3});
+        System.out.println(sum);
+        
 		calculator.multiplyAndPrintNumbers(new BigDecimal("1.1"),new BigDecimal("2.3"));
 		calculator.divideAndPrintNumbers(10, 10);
 	}

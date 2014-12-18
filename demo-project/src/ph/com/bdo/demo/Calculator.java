@@ -6,9 +6,14 @@ public class Calculator {
 	
 	BigDecimal result;
 	
-	public void addAndPrintNumbers(int x, int y, int z) {
-		int sum = x + y + z;
-		System.out.println(sum);
+	public int addAndPrintNumbers(int[] list) {
+		 
+	    int sum = 0;
+	    for (int i=0; i < list.length; i++) {
+	        sum += list[i];
+	    }
+	    return sum;
+	 
 	}
 
 	public void multiplyAndPrintNumbers(BigDecimal a, BigDecimal b) {
